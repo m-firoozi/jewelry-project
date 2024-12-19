@@ -1,0 +1,853 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+
+.container{
+    width:100%;
+    font-family:iransans ,Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family:iransans;
+    src: url("../font/IRANSansWeb\(FaNum\).ttf");
+}
+
+/***********************************HEADER**********************************/
+
+.container header{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    top:0;
+    background-image: url("../images/slider-1-2-1500x819.png");
+    background-size: cover;
+    background-position: center;
+}
+.container header .menu{
+    height:3rem;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2.5rem 3rem;
+    font-size: 13px;
+   
+}
+.container header .menu img{
+    width:150px;
+}
+.container header .menu ul li{
+    display: inline-block;
+    padding: 0 0.7rem;
+}
+.container header .menu ul li a{
+    text-decoration: none;
+    color:rgb(197, 192, 192);
+    font-weight:bold;
+    
+}
+.container header .menu .fa-search{
+    color:rgb(197, 192, 192);
+    font-size: 17px;
+}
+.container header .menu .material-icons{
+    color:transparent;
+    font-size: 17px;
+}
+.container header  .menu #firstpage-color{
+    color:black;
+    border-bottom: 2px solid rgb(236, 231, 231);
+    padding-bottom: 1rem;
+}
+
+.container header  .menu ul li a:hover{
+    border-bottom: 2px solid rgb(252, 248, 248);
+    padding-bottom: 1rem;
+    color: black;
+}
+.container header .menu .fa-search:hover{
+    color: black;
+}
+/***************div(topic)************/
+
+.container header .topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:25px;
+    position: absolute;
+    top:247.913px;
+    left:263.477px;
+}
+.container header .topic .text-style{
+    font-weight: 600;
+    color:white;
+}
+.container header .topic p{
+    font-size: 36.6867px;
+    
+}
+.container header .topic h1{
+    font-size: 25.5695px;
+}
+
+.container header .topic span{
+    background-color: #ffffff;
+    border-radius: 56px;
+    height:52px;
+    width:198px;
+    font-size: 11.1172px;
+    color:black;
+    font-weight: 700;
+    padding: 17px 67px;
+    
+}
+
+/************************HEADER ICONS************/
+    
+
+.container header  .fa-angle-right,
+.container header  .fa-angle-left{
+    font-size:50px;
+    color: white;
+    position: absolute;
+    top:45vh;
+}
+.container header  .fa-angle-right{
+    right:4rem;
+}
+.container header  .fa-angle-left{
+    left:4rem;
+}
+.container header .play-pause{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    position: absolute;
+    bottom:5vh;
+    right:45vw;
+    font-size: 28px;
+    color:rgb(192, 186, 186);
+}
+.container header .play-pause .circles{
+    display: flex;
+    justify-content: center;
+    gap:1px;
+    font-size:15px;
+    
+}
+.container header .play-pause i:hover{
+    color:black;
+    transition: 1s ease-in-out;
+}
+
+/**********************************MAIN******************************/
+.container main{
+    width:100%;
+}
+.container main .first-banner{
+    width:100%;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    padding:5rem;
+    gap:10px;
+}
+
+/*********************FIRST-BANNER**************/
+.container main .first-banner .pictures{
+    background-repeat: no-repeat;
+    background-position: center;
+    width:354.922px;
+    height: 517.25px;
+    position: relative;
+    top:0;
+    right:0;
+}
+.container main .first-banner .pictures p strong{
+    color:#919191;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top:45%;
+    left:15px;
+}
+.container main .first-banner .pic1{
+   background-image: url("../images/banner-1.png");
+}
+.container main .first-banner .pic2{
+    background-image: url("../images/banner-2.png");
+ }
+ .container main .first-banner .pic3{
+    background-image: url("../images/banner-3.png"); 
+ }
+
+/*******************************SECOND-BANNER**************/
+.container main .titles{
+    text-align: center;
+    color:#CB8161;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container main .second-banner{
+    width:100%;
+    padding:3rem 5rem;
+}
+.container main .second-banner div{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.container main .second-banner div img{
+    width:240px;
+    height:240px;
+    border: 1px solid rgba(224, 221, 221, 0.979);
+}
+/*********************************THIRD-BANNER****************************/
+.container main .third-banner{
+    width:100%;
+    background-image: url("../images/lightorange\ bg.png");
+    background-size: cover;
+    display:flex;
+    justify-content:space-around;
+    padding:3rem;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    
+   
+}
+.container main .third-banner .right-pic,
+.container main .third-banner .information1
+{
+    width:45%;
+    
+}
+.container main .third-banner .right-pic img{
+    width:568.688px;
+    height:467.422px;
+    
+}
+.container main .third-banner .information1 strong{
+    font-size: 26px;
+    font-weight: 700;
+}
+.container main .third-banner .information1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap:1rem;
+    
+}
+.container main .third-banner .information1 .articles{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2rem;
+}
+.container main .third-banner .information1 .first-article,
+.container main .third-banner .information1 .second-article
+
+{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+    
+}
+.container main .third-banner .information1 .first-article .orange-circles,
+.container main .third-banner .information1 .second-article .orange-circles
+{
+    width:64px;
+    height:64px;
+    background-color: #ffad76;
+    border-radius: 100%;
+}
+.container main .third-banner .information1 .first-article h4,
+.container main .third-banner .information1 .second-article h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.container main .third-banner .information1 .first-article p,
+.container main .third-banner .information1 .second-article p
+{
+    font-size: 13px;
+    color:#969696;
+    
+}
+.container main .third-banner .information1 .first-article .info-1,
+.container main .third-banner .information1 .second-article .info-2{
+    width:472.688px;
+    
+}
+.container main .third-banner .information1 #first-btn{
+    width:90px;
+    height:40.5938px;
+    background-color: black;
+}
+.container main .third-banner .btn,
+.container main .fourth-banner .btn
+{
+    color:white;
+    font-family: iransans;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container main .third-banner .information1 .first-btn:hover{
+    background-color:#CB8161;
+    border: #CB8161;
+    border-bottom: 1px solid #CB8161;
+}
+/******************************************FOURTH-BANNER*******************************************/
+
+.container main .fourth-banner{
+    width:100%;
+
+}
+.container main .fourth-banner .information2{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:450px;
+    padding:3rem 5rem;
+}
+.container main .fourth-banner .information2 img{
+    width:568.719px;
+    height:389.859px;
+}
+.container main .fourth-banner .information2 .info2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+}
+.container main .fourth-banner .information2 .info2-1 strong{
+    font-size: 19px;
+    font-weight: 700;
+    color: #CB8161;
+}
+.container main .fourth-banner .information2 .info2-1 p{
+    font-size: 13px;
+}
+.container main .fourth-banner .information2 .info2-1 button{
+    width:80px;
+    height:34.593px;
+    background-color: #CB8161;
+    border: none;
+}
+/*******************************FIFTH-BANNER************************************/
+.container main .fifth-banner{
+    width:100%;
+    background-image: url("../images/2-1.png");
+    background-size: cover;
+    text-align: center;
+    color: #CB8161;
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+.container main .fifth-banner .information3 .fa-instagram{
+    font-size: 40px;
+}
+.container main .fifth-banner .information3 p{
+    font-size: 18px;
+}
+.container main .fifth-banner .information3{
+    line-height:2.5rem;
+}
+.container main .fifth-banner .jewelry-pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5rem;
+}
+.container main .fifth-banner .jewelry-pics img{
+    width:248.047px;
+    border-radius: 3px;
+}
+/******************************SIXTH-BANNER************************************/
+.container main .sixth-banner{
+    width:100%;
+    text-align: center;
+    padding:4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:3rem;
+}
+.container main .sixth-banner .search-1{
+    width:100%;
+    line-height: 2rem;
+}
+.container main .sixth-banner .search-1 strong{
+    font-size: 20px;
+    font-weight: 700;
+    color: #CB8161;
+}
+.container main .sixth-banner .search-1 p{
+    font-size: 13px;
+}
+.container main .sixth-banner .search-2{
+    width:100%;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding:0 2rem;
+}
+.container main .sixth-banner .search-2{
+    width:100%;
+}
+.container main .sixth-banner .search-2 .btn{
+    width:91.375px;
+    height:40px;
+    background-color: #CB8161;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+.container main .sixth-banner .search-2 input{
+    width:1200px;
+    height:40px;
+    background-image: url("../images/2-1.png");
+    border: 1px solid lightgray;
+    outline: none;
+}
+/*************************************SEVENTH-SECTION***********************/
+.container main .seventh-section{
+    width:100%;
+    background-image: url("../images/6-1.png");
+    background-size: cover;
+    height:408.453px;
+    background-size:130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.container main .seventh-section .branches{
+    /*width:354.922px;
+    height:308.453px;*/
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    font-size: 13px;
+    width:25%;
+    padding:3rem 0;
+
+}
+.container main .seventh-section .branches .fa-arrow-down{
+    font-size: 40px;
+    color:#CB8161;
+
+}
+.container main .seventh-section .branches #text-size{
+    font-size: 20px;
+    color:#CB8161;
+}
+/*********************************************FOOTER******************************************/
+.container main footer{
+    width:100%;
+    padding:3rem 5.5rem;
+    
+}
+.container main footer .contact-us{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+
+}
+.container main footer .contact-us .social-media{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container main footer .contact-us .social-media a i{
+   color: black;
+    font-size: 14px;
+    border: 1px solid rgb(231, 228, 228) ;
+    padding:13px;
+}
+/*********************social-media(hover)****************/
+.container main footer .contact-us .social-media a i:hover{
+    color:white;
+    transform: scale(130%);
+}
+.container main footer .contact-us .social-media .fa-facebook:hover{
+    background-color:rgb(66 ,103, 178);
+    
+}
+.container main footer .contact-us .social-media .fa-twitter:hover{
+    background-color: rgb(170, 184 ,194);
+}
+.container main footer .contact-us .social-media .fa-whatsapp:hover{
+    background-color: rgb(37, 211, 102);
+}
+.container main footer .contact-us .social-media .fa-pinterest-p:hover{
+    background-color: rgb(230 ,0 ,35);
+}
+.container main footer .contact-us .social-media .fa-linkedin:hover{
+    background-color: rgb(10, 102, 194);
+}
+.container main footer .contact-us .social-media .fa-tumblr-square:hover{
+    background-color: rgb(52,82,111);
+}
+.container main footer .contact-us .social-media .fa-vk:hover{
+    background-color: rgb(76, 117, 163);
+}
+.container main footer .contact-us .social-media .fa-reddit-alien:hover{
+    background-color: orangered;
+}
+.container main footer .contact-us .social-media .fa-envelope:hover{
+    background-color: rgba(86, 177, 12, 0.726);
+}
+/*******************************/
+.container main footer #up-button i{
+    text-align: center;
+    width:50px;
+    height:50px;
+    padding-top:15px;
+    border:1px solid rgb(235, 232, 232);
+}
+.container main footer #up-button i:hover{
+    color:#CB8161;
+}
+.container main footer .contact-us #up-button{
+    position: fixed;
+    bottom:3rem;
+    right:2rem;
+    background-color: #ffffff;
+    
+}
+/***********************************RESPONSIVE*************************************/
+
+/***********************TABLET*****************/
+
+@media/*(min-width:480px) and */(max-width:768px){
+
+    /*******************header*****************/
+
+    .container header{
+        background-repeat: no-repeat;
+        background-position: 75% 30%;
+        height:80vh;
+    }
+    .container header .menu{
+        justify-content:space-between;
+        font-size:8px;
+        background-color: #ffffff;
+    }
+    .container header .menu img{
+        width:100px;
+    }
+    .container header .menu ul li:nth-child(1),
+    .container header .menu ul li:nth-child(2),
+    .container header .menu ul li:nth-child(3),
+    .container header .menu ul li:nth-child(4)
+    {
+        display: none;
+    }
+    .container header .menu nav ul{
+        display: flex;
+        align-items: center;
+    }
+    .container header .menu .fa-search{
+        color:black;
+    }
+    .container header .menu .material-icons{
+        color:gray;
+        font-size:30px;
+    }
+    .container header .topic{
+        top:40%;
+        left:18vw;
+        gap:10px;
+    }
+    .container header .topic span{
+        font-size:5.26562px;
+        width:101px;
+        height:27px;
+        padding:9px 34px;
+        border-radius: 28px;
+    }
+    .container header .topic p.text-style{
+        font-size: 17.3766px;
+    }
+    .container header .topic h1.text-style{
+        font-size: 12.1109px;
+        
+    }
+    .container header  .fa-angle-right,
+    .container header  .fa-angle-left{
+        top:45%;
+    }
+    /*.container header .play-pause{
+        bottom:10vh;
+    }*/
+
+    /***********************main******************/
+    /**first-banner***/
+
+  .container main .first-banner{
+    grid-template-columns: auto;
+
+  }
+  .container main .first-banner .pictures{
+    width:100%;
+  }
+  /**second-banner**/
+  .container main .second-banner{
+    padding:3rem;
+  }
+  .container main .second-banner > div{
+    grid-template-columns: 1fr;
+    grid-template-rows:auto auto auto;
+    /*display: flex;
+    flex-direction: column;*/
+    gap:25px;
+    
+  }
+  .container main .second-banner div > img{
+    width:100%;
+  }
+  .container main .second-banner div img#size{
+    height:437.44px;
+  }
+  .container main .second-banner div .display{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container main .second-banner div .display img{
+    width:100%;
+    
+  }
+
+  /**third-banner**/
+
+  .container main .third-banner{
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+  }
+  .container main .third-banner .right-pic,
+.container main .third-banner .information1
+{
+    width:100%;  
+}
+.container main .third-banner .right-pic img{
+    width:100%;
+}
+.container main .third-banner .information1 strong{
+   font-size: 20px;
+}
+.container main .third-banner .information1 .first-article h4,
+.container main .third-banner .information1 .second-article h4{
+        font-size: 15px;
+    }
+.container main .third-banner .information1 .first-article p,
+.container main .third-banner .information1 .second-article p{
+    font-size: 12px;
+}
+.container main .third-banner .information1 #first-btn{
+    font-size: 12px;
+    width:72px;
+    height:30px;
+}
+.container main .third-banner .information1 .first-article .orange-circles,
+.container main .third-banner .information1 .second-article .orange-circles{
+    width:54px;
+    height:54px;
+}
+.container main .third-banner .information1 .first-article,
+.container main .third-banner .information1 .second-article{
+    width:80%;
+}
+
+
+/**fourth-banner**/
+
+  .container main .fourth-banner .information2{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap:3rem;
+    padding:3rem 2rem;
+  }
+  .container main .fourth-banner .information2 img{
+    width:100%;
+    height:384.55px;
+   
+  }
+  /**fifth-banner**/
+  .container main .fifth-banner .jewelry-pics{
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+  }
+  .container main .fifth-banner .jewelry-pics img{
+    width:100%;
+  }
+  /**sixth-banner**/
+  .container main .sixth-banner .search-2 .btn{
+    width:20%;
+  }
+  .container main .sixth-banner .search-2 input{
+    width:80%;
+  }
+  /**seeventh-banner**/
+  .container main .seventh-section{
+   background-size: 300%;
+  }
+  .container main .seventh-section .branches{
+    /*width:400px;
+    height:200px;*/
+    width:80%;
+    height:80%;
+    
+  }
+  /**footer**/
+  .container main footer .contact-us{
+    flex-direction: column;
+  }
+}
+/*********************************MOBILE******************************/
+
+@media(max-width:480px){
+
+    /*******header***/
+    .container header{
+        height:60vh;
+    }
+    .container header .topic h1.text-style{
+        font-size:7px;
+    }
+    .container header .topic p.text-style{
+        font-size: 12px;
+    }
+    .container header .topic span{
+        width:70px;
+        height:20px;
+        font-size: 5px;
+        padding:5px 20px;
+    }
+    .container header  .fa-angle-right{
+        right:2rem;
+    }
+    .container header  .fa-angle-left{
+        left:2rem;
+    }
+
+    /**************main*********/
+    
+    /***first-banner***/
+    .container main .first-banner{
+        padding:0 2rem;
+    }
+    /***second-banner***/
+    .container main .second-banner div .display{
+        grid-template-columns: 1fr;
+    }
+    .container main .second-banner div img#size{
+        height:auto;
+    }
+    /***third-banner***/
+    .container main .third-banner{
+        padding:3rem 2rem;
+    }
+    .container main .third-banner .right-pic img{
+        height:330.45px;
+    }
+    .container main .third-banner .information1 strong{
+        font-size: 18px;
+    }
+    .container main .third-banner .information1 .first-article h4,
+    .container main .third-banner .information1 .second-article h4
+    {
+        font-size: 14px;
+    }
+    .container main .third-banner .information1 .first-article p,
+    .container main .third-banner .information1 .second-article p{
+        font-size: 11px;
+    }
+    /***fourth-banner***/
+    .container main .fourth-banner .information2{
+        grid-template-rows:auto;
+        padding:3rem 2rem;
+    }
+    .container main .fourth-banner .information2 .info2-1 strong{
+        font-size: 15px;
+    }
+    /***fifth-banner***/
+    .container main .fifth-banner{
+        padding:3rem 2rem;
+    }
+    .container main .fifth-banner .jewelry-pics{
+        grid-template-columns: 1fr;
+    }
+    /***sixth-banner***/
+    .container main .sixth-banner{
+        padding:4rem 2rem;
+    }
+    .container main .sixth-banner .search-1 strong{
+        font-size: 14px;
+    }
+    .container main .sixth-banner .search-1 p{
+        font-size: 10px;
+    }
+    .container main .sixth-banner .search-2 .btn{
+        font-size: 10px;
+        
+    }
+    .container main .sixth-banner .search-2 input{
+        font-size: 10px;
+    }
+
+    /***seventh-banner***/
+
+    .container main .seventh-section{
+        background-size: 400%;
+    }
+    .container main .seventh-section .branches{
+        width:70%;
+        height:50%;
+        padding:1rem 0;
+    }
+    .container main .seventh-section .branches .fa-arrow-down{
+        font-size: 30px;
+    }
+
+
+    /***footer***/
+    .container main footer{
+        padding:3rem 1rem;
+    }
+    .container main footer .contact-us p{
+        font-size: 10px;
+    }
+    .container main footer .contact-us .social-media a i{
+        font-size:10px;
+        padding:8px 4px;
+    }
+    .container main .seventh-section .branches #text-size{
+        font-size: 15px;
+    }
+
+}
+
